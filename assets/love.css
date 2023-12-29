@@ -12,23 +12,11 @@ body {
     align-items: center;
     width: 100px;
     height: 100px;
-    animation: heartbeat 1s infinite;
+    animation: heartbeat .3s infinite;
 }
 .heart-container img{
     width: 400px;
     height: 400px;
-}
-
-.heart {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    transform: rotate(-45deg);
-    border-radius: 50%;
-    animation: heartbeat 1s infinite;
 }
 
 @keyframes heartbeat {
@@ -36,11 +24,6 @@ body {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
-}
-
-.heart-container:hover,
-.heart-container:hover .heart {
-    animation: none;
 }
