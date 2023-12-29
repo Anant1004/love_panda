@@ -11,3 +11,9 @@ button.addEventListener('mouseover', () => {
     button.style.left = `${newLeft}px`;
     button.style.top = `${newTop}px`;
 });
+var yesButton = document.getElementById('yesbtn');
+
+    yesButton.addEventListener('click', function() {
+    
+    window.location.href = 'assets//love.html';
+});
