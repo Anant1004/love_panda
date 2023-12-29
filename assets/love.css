@@ -10,8 +10,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
     animation: heartbeat .3s infinite;
 }
 .heart-container img{
